@@ -16,6 +16,7 @@
     background: url(/images/banner/banner1.png);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 100px;
 }
 
 .first-banner-content {
@@ -48,4 +49,41 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: 18px;
+}
+
+.first-hero {
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+    position: relative;
+}
+
+.first-hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    z-index: 11;
+}
+
+.circle {
+    position: absolute;
+    top: 197px;
+    left: 25px;
+    width: 527px;
+    height: 527px;
+    border-radius: 50%;
+    background-color: #F15B2240;
+    /* visibility: hidden; */
+    z-index: -1;
+}
+
+.first-hero-content {
+    position: absolute;
+    top: 280px;
+    left: 60%;
+    border: 1px solid black;
+    margin-right: 50px;
 }
