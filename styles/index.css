@@ -54,21 +54,22 @@
 .first-hero {
     width: 85%;
     margin: 0 auto;
-    /* justify-content: space-between;
-    gap: 100px; */
+    justify-content: space-between;
+    gap: 100px;
     align-items: center;
-    position: relative;
+    display: flex;
+    margin-bottom: 150px;
+    /* position: relative; */
 }
 
-.first-hero-image {
-    position: absolute;
+/* .first-hero-image {
     top: 0;
     left: 0;
     width: 400px;
     z-index: 11;
-}
+} */
 
-.circle {
+/* .circle {
     position: absolute;
     top: 197px;
     left: 25px;
@@ -76,16 +77,12 @@
     height: 527px;
     border-radius: 50%;
     background-color: #F15B2240;
-    /* visibility: hidden; */
+    visibility: hidden;
     z-index: -1;
-}
+} */
 
 .first-hero-content {
-    position: absolute;
-    top: 280px;
-    left: 55%;
-    /* border: 1px solid black; */
-    margin-right: 150px;
+    margin: 150px 150px 0 0;
 }
 
 .first-hero-content h2 {
