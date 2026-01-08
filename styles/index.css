@@ -4,11 +4,31 @@
     box-sizing: border-box;
 }
 
-
+/* Common Class Start */
 .font-work-sans {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
 }
+
+.heading {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #151414;
+}
+
+.sub-heading {
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 15px;
+}
+
+.container {
+    width: 72%;
+    margin: 0 auto;
+}
+
+/* Common Class End */
 
 .first-banner {
     width: 100%;
@@ -30,15 +50,6 @@
 
 .first-banner-content h1 {
     font-size: 65px;
-    margin-bottom: 15px;
-    color: #151414;
-}
-
-.first-banner-content p {
-    font-size: 16px;
-    line-height: 26px;
-    color: #444343;
-    margin-bottom: 15px;
 }
 
 .btn{
@@ -49,6 +60,12 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: 18px;
+    box-shadow: 0 4px 6px #efa98d;
+    transition: box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    box-shadow: 0 4px 25px #fa8e63;
 }
 
 .first-hero {
@@ -85,19 +102,6 @@
     margin: 150px 150px 0 0;
 }
 
-.first-hero-content h2 {
-    color: #151414;
-    font-size: 40px;
-    margin-bottom: 15px;
-}
-
-.first-hero-content p {
-    font-size: 16px;
-    line-height: 26px;
-    color: #444343;
-    margin-bottom: 15px;
-}
-
 .first-hero-content ul li{
     list-style: none;
     line-height: 30px;
@@ -106,4 +110,46 @@
 
 .fa-solid {
     color: #16D887;
+}
+
+.plan-container h2 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.my-plan-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 100px;
+}
+
+.my-plan-section h3 {
+    font-size: 25px;
+    color: #151414;
+}
+
+.my-plan-section p {
+    font-size: 20px;
+    color: #444343;
+}
+
+.card-box {
+    text-align: center;
+    padding: 15px 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 350px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s ease;
+}
+
+.card-box:hover {
+    box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+}
+
+.card-box * {
+    margin-bottom: 20px;
 }
